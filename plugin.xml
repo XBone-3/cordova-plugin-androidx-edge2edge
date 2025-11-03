@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.xbone.cordova.edge2edge" version="1.0.0" 
+        xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <name>EdgeToEdge</name>
+        <js-module name="EdgeToEdge" src="www/EdgeToEdge.js">
+            <clobbers target="cordova.plugins.EdgeToEdge" />
+        </js-module>
+        
+        <platform name="android">
+            <config-file parent="/*" target="res/xml/config.xml">
+                <feature name="EdgeToEdge">
+                    <param name="android-package" value="com.xbone.cordova.edge2edge.EdgeToEdge" />
+                </feature>
+            </config-file>
+            
+            <config-file parent="/*" target="AndroidManifest.xml">
+            </config-file>
+            
+            <source-file src="src/android/EdgeToEdge.java" target-dir="src/com/xbone/cordova/edge2edge/EdgeToEdge" />
+        </platform>
+    </plugin>

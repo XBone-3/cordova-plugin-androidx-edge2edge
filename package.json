@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-androidx-edge2edge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XBone-3/cordova-plugin-androidx-edge2edge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XBone-3/cordova-plugin-androidx-edge2edge/issues"
+  },
+  "homepage": "https://github.com/XBone-3/cordova-plugin-androidx-edge2edge#readme"
+}
